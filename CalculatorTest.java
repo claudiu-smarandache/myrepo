@@ -1,7 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class CalculatorTest {
     private Calculator calculator;
@@ -13,6 +13,6 @@ public class CalculatorTest {
 
     @Test
     public void calculateTest() {
-        assertEquals(15, calculator.Multiplicate());
+        assertEquals(15, calculator.Multiplicate(), 0.1);
     }
 }
