@@ -1,4 +1,4 @@
-public class Exchange {
+public class Calculator {
     private Integer firstNumber;
     private Integer secondNumber;
 
