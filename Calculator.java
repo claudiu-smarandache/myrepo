@@ -10,7 +10,7 @@ public class Calculator {
         this.secondNumber = secondNumber;
     }
 
-    public String Multiplicate() {
+    public Integer Multiplicate() {
         return this.firstNumber * this.secondNumber;
     }
 }
