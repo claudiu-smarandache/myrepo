@@ -2,10 +2,10 @@ public class Calculator {
     private Integer firstNumber;
     private Integer secondNumber;
 
-    public Exchange() {
+    public Calculator() {
     }
 
-    public Exchange(Integer firstNumber, Integer secondNumber) {
+    public Calculator(Integer firstNumber, Integer secondNumber) {
         this.firstNumber = firstNumber;
         this.secondNumber = secondNumber;
     }
