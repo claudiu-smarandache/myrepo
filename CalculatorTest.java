@@ -13,6 +13,6 @@ public class CalculatorTest {
 
     @Test
     public void calculateTest() {
-        assertEquals(15, calculator.multiplicate());
+        assertEquals(15, calculator.Multiplicate());
     }
 }
